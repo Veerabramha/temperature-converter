@@ -1,0 +1,87 @@
+.main-bg-container{
+  background-color: cadetblue;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+}
+
+.heading{
+  color: rgb(7, 55, 145);
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-container{
+  background-color: rgb(50, 82, 104);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 10px rgba(0, 0, 0, 0.3);
+  height: 300px;
+  width: 450px;
+}
+
+input{
+  width: 60%;
+  font-family: "Comic Sans MS";
+  padding: 5px;
+  outline: none;
+  background: rgba(0, 212, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+  color: darkblue;
+  font-size: 18px;
+}
+
+input::placeholder{
+  color: darkgrey;
+  font-family: "Comic Sans MS";
+}
+
+select{
+  color: darkblue;
+  font-size: 18px;
+  font-family: "Comic Sans MS";
+  padding: 5px;
+  outline: none;
+  background: rgba(0, 212, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+option{
+  font-family: "Comic Sans MS";
+}
+
+.label-text{
+  color: rgb(255, 255, 255);
+  font-family: "Comic Sans MS";
+  font-size: large;
+}
+
+.button{
+  background-color: cornflowerblue;
+  color: #ffffff;
+  font-family: "Comic Sans MS";
+  height: 38px;
+  width: 85px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover{
+  background-color: lightseagreen;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.result{
+  background-color: rgb(50, 82, 104);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Comic Sans MS";
+  font-size: larger;
+  box-shadow: 0 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 450px;
+}
+
