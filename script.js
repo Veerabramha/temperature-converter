@@ -42,7 +42,7 @@ function convert(){
     } 
     
     else if (from.value === to.value) {
-        resultEl.innerHTML = `${temp}°${fromValue.toUpperCase()} is equal to ${temp}°${to.value.toUpperCase()}`;
+        resultEl.innerHTML = `${temp}°${from.value.toUpperCase()} is equal to ${temp}°${to.value.toUpperCase()}`;
     }
 
 
