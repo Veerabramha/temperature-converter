@@ -1,67 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 .main-bg-container{
-  background-color: cadetblue;
+  background-image: url('https://res.cloudinary.com/db81wfhg9/image/upload/v1696091841/andrey-grinkevich-0x6RTts1jRU-unsplash_1_if9cnx.jpg');
   background-size: cover;
   height: 100vh;
   padding: 20px;
 }
 
 .heading{
-  color: rgb(7, 55, 145);
-  font-family: "Comic Sans MS";
+  color: #2f2f44;
+  font-family: "Gabriola";
   font-weight: bold;
+  font-size: 62px;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .form-container{
-  background-color: rgb(50, 82, 104);
+  background-color: transparent;
   padding: 20px;
+  border: 1px solid;
+  border-color: white;
   border-radius: 10px;
   box-shadow: 0 0 4px 10px rgba(0, 0, 0, 0.3);
-  height: 300px;
+  min-height: 300px;
   width: 450px;
 }
 
 input{
   width: 60%;
-  font-family: "Comic Sans MS";
+  font-family: "Helvetica";
   padding: 5px;
   outline: none;
-  background: rgba(0, 212, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.6);
-  color: darkblue;
+  border: solid 1px;
+  background: transparent;
+  color: rgb(0, 0, 0);
   font-size: 18px;
 }
 
 input::placeholder{
-  color: darkgrey;
-  font-family: "Comic Sans MS";
+  color: rgb(95, 97, 99);
+  font-family: "Helvetica";
 }
 
 select{
-  color: darkblue;
+  color: rgb(0, 0, 0);
   font-size: 18px;
-  font-family: "Comic Sans MS";
+  font-family: "Helvetica";
   padding: 5px;
   outline: none;
-  background: rgba(0, 212, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.6);
+  border: solid 1px;
+  border-width: 1px;
+  background: transparent;
 }
 
 option{
-  font-family: "Comic Sans MS";
+  font-family: "Helvetica";
 }
 
+
 .label-text{
-  color: rgb(255, 255, 255);
-  font-family: "Comic Sans MS";
-  font-size: large;
+  color: #2f2f44;
+  font-weight: bold;
+  font-family: "Helvetica";
+  font-size: 18px;
 }
 
 .submit-button{
-  background-color: cornflowerblue;
+  background-color: rgb(50, 116, 240);
   color: #ffffff;
-  font-family: "Comic Sans MS";
+  font-family: "Helvetica";
   height: 38px;
   width: 85px;
   border: none;
@@ -74,11 +82,10 @@ option{
   transition: 0.3s;
 }
 
-
 .clear-button{
   background-color: rgb(66, 65, 65);
   color: #ffffff;
-  font-family: "Comic Sans MS";
+  font-family: "Helvetica";
   height: 38px;
   width: 85px;
   border: none;
@@ -86,19 +93,23 @@ option{
 }
 
 .clear-button:hover{
-  background-color: red;
+  background-color: rgb(163, 0, 0);
   transform: scale(1.1);
   transition: 0.3s;
 }
 
 .result{
-  background-color: rgb(50, 82, 104);
+  background-color: transparent;
   padding: 20px;
   border-radius: 10px;
+  border: 1px solid;
+  border-color: white;
   margin-top: 10px;
-  color: rgb(255, 255, 255);
-  font-family: "Comic Sans MS";
-  font-size: larger;
+  color: black;
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
   box-shadow: 0 0 4px 10px rgba(0, 0, 0, 0.3);
   width: 450px;
 }
